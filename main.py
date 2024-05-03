@@ -5,13 +5,13 @@ import random as r
 import os
 
 # ---------------------------- EMAIL ------------------------------- #
-my_email = "rhythm.hacker17@gmail.com"
-my_password = "xkkxieymtseyzcqu"
+my_email = ""
+my_password = ""
 dob = {}
 name = ""
 email = ""
 message = ""
-directory_path = "E:/Python/Course/Birthday Wisher (Day 32) start/letter_templates"
+directory_path = ""
 # ---------------------------- SELECTING MESSAGE------------------------------- #
 
 
@@ -66,7 +66,7 @@ def select_name():
 
 try:
     data = pd.read_csv(
-        'E:/Python/Course/Birthday Wisher (Day 32) start/birthdays.csv')
+        '')
 
 except FileNotFoundError:
     print("File not found")
